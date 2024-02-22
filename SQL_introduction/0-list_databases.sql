@@ -1,2 +1,3 @@
 -- Active: 1708447429420@@localhost@3306@good
-SHOW DATABASES;
+--list all database in mysql server
+SHOW DATABASE;
