@@ -1,6 +1,4 @@
--- Active: 1708628626646@@localhost@3306@testdb
-CREATE DATABASE hbtn_0c_0;
-USE hbtn_0c_0;
+-- Active: 1708628626646@@localhost@3306@testd
 CREATE TABLE first_table(
     id INT(11) NOT NULL AUTO_INCREMENT,
     name VARCHAR(256) DEFAULT NULL,
