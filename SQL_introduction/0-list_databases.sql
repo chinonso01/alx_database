@@ -1,5 +1,6 @@
 -- Active: 1708628626646@@localhost@3306@testdb
 SHOW DATABASES;
+USE testDB;
 CREATE TABLE employees(
     id INTEGER PRIMARY KEY AUTO_INCREMENT,
     name VARCHAR(50),
