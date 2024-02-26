@@ -6,4 +6,4 @@ CREATE TABLE IF NOT EXISTS first_table(
     created_at DATETIME DEFAULT NULL,
     PRIMARY KEY(id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
-SHOW TABLES FROM hbtn_0c_0;
+SELECT * FROM first_table;
