@@ -1,5 +1,4 @@
 -- Active: 1708628626646@@localhost@3306@testdb
---list all database in mysql server
 SHOW DATABASES;
 CREATE TABLE employees(
     id INTEGER PRIMARY KEY AUTO_INCREMENT,
