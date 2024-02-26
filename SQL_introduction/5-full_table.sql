@@ -1,5 +1,5 @@
 -- Active: 1708628626646@@localhost@3306@testd
-CREATE TABLE first_table(
+CREATE TABLE IF NOT EXISTS first_table(
     id INT(11) NOT NULL AUTO_INCREMENT,
     name VARCHAR(256) DEFAULT NULL,
     c CHAR(1) DEFAULT NULL,
