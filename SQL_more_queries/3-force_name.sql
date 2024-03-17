@@ -1,8 +1,4 @@
-#!/bin/bash
 
-# Script to create the force_name table on MySQL server
-
-# Check if the database name is provided as an argument
 if [ $# -eq 0 ]; then
     echo "Error: Database name is not provided."
     exit 1
