@@ -1,11 +1,7 @@
--- This script checks if users user_0d_1 and user_0d_2 exist in the MySQL server.
+-- This script checks if specific grants are defined for users user_0d_1 and user_0d_2 on the localhost.
 
--- Checking if user_0d_1 exists.
-SELECT COUNT(*)
-FROM mysql.user
-WHERE user = 'user_0d_1';
+-- Checking grants for user_0d_1.
+SHOW GRANTS FOR 'user_0d_1'@'localhost';
 
--- Checking if user_0d_2 exists.
-SELECT COUNT(*)
-FROM mysql.user
-WHERE user = 'user_0d_2';
+-- Checking grants for user_0d_2.
+SHOW GRANTS FOR 'user_0d_2'@'localhost';
