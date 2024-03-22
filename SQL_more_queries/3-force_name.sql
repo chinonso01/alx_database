@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# This script creates the table 'force_name' on a MySQL server.
+# The table has two columns: 'id' of type INT and 'name' of type VARCHAR(256) which cannot be null.
+# The database name will be passed as an argument to the mysql command.
+# If the table 'force_name' already exists, the script will not fail.
+
 # Check if database name is provided as argument
 if [ $# -ne 1 ]; then
     echo "Usage: $0 <database_name>"
